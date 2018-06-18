@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="main.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+</head>
+  
+
+<body>
+
+<div class="container">
+<div class="row center" >
+     <form action="process.php" method="post">
+      <img src="logo2.png" class="logo">
+      <h3>Name</h3>
+
+      <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+       <input type="text" class="form-control name" name="name" required>
+      </div>
+      <div class="col-md-4"></div>
+      </div>
+
+      <h3>How likely are you to recommend the Brand, Product or Service to a friend or colleague?</h3>
+
+
+      <div class="btn-group" data-toggle="buttons">
+             <label class="btn btn-default">
+                <input type="radio" name="options" value="0" > 0
+             </label>
+             <label class="btn btn-default">
+                <input type="radio" name="options" value="1" > 1
+             </label>
+             <label class="btn btn-default">
+                <input type="radio" name="options" value="2" > 2
+             </label>
+             <label class="btn btn-default">
+                <input type="radio" name="options" value="3" > 3
+             </label>
+             <label class="btn btn-default">
+                <input type="radio" name="options" value="4" > 4
+             </label>
+             <label class="btn btn-default">
+                <input type="radio" name="options" value="5" > 5
+             </label>
+               <label class="btn btn-default">
+                <input type="radio" name="options" value="6" > 6
+             </label>
+             <label class="btn btn-default">
+                <input type="radio" name="options" value="7" > 7
+             </label>
+             <label class="btn btn-default">
+                <input type="radio" name="options" value="8"  > 8
+             </label>
+             <label class="btn btn-default">
+                <input type="radio" name="options" value="9" > 9
+             </label>
+             <label class="btn btn-default active">
+                <input type="radio" name="options" value="10"  checked> 10
+             </label>
+
+      </div>
+
+      <br><br>
+      <span class="left">0.Not at all likely</span>
+      <span class="right">10.Extremly likely</span>
+      <br>
+      <input type="submit" class="btn btn-success submitbtn" value="Submit">
+   </form>
+
+
+   
+</div>
+</div>
+</body>
+</html>
